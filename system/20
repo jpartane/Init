@@ -1,0 +1,7 @@
+awk -F: '{print $1}' /etc/passwd
+
+# List all existing users on the VM
+# this will print only the first field containing
+# the username. If you want more information like 
+# UIDs (user ID number) , user home directory etc
+# u can type 'less /etc/passwd'

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cat /etc/passwd | grep "test"
+sudo userdel -r test
+cat /etc/passwd | grep "test"
+
+# Write a sricpt which will delete an active user on VM
+# userdel command modifies the system account files, deleting all entries
+# that refer to the user name <login>. The named user must exist
+# -r = -remove. Files in the users home directory will be removed along
+# with the home directory itself and the users mail spool.

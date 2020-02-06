@@ -1,0 +1,5 @@
+# graphic session : Launch the VM and login using username 
+# and password
+# ssh session : Launch VM and check that settings->network
+# -> 'Attached to' is set to 'Bridged Adapter'
+# then type 'ssh <login>@<IP>'

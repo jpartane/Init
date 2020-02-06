@@ -1,0 +1,5 @@
+tail -f /var/log/syslog &
+
+# Run the ‘tail -f /var/log/syslog‘ command in background
+# '&' pushes the command into the background without disconnecting it
+# ps aux = process status to see the tail command running

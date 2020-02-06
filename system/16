@@ -1,0 +1,12 @@
+crontab (cron)
+
+# Find the service which makes it possible to run specific tasks 
+# following a regular schedule
+# cron = daemon (background processes) to execute scheduled commands
+# crontab = maintain crontab files
+# with crontab -l you can display the current crontab
+# crontab -e = edit the current crontab
+# inside vim, give the wished time when the command should be executed
+# minutes hour  * * for day month year
+# write the command after the date /bin/sh/media/ab.sh
+# create a abc.sh ffile in the media folder with a script: touch /media/file.txt

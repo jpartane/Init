@@ -1,0 +1,7 @@
+echo 'The wise gorilla Kiki will give you a piece of information'
+echo ' /~\'
+echo 'C  oo'
+echo '_(  ^) How many days ago did August Piscine start?'
+echo '/   ~\'
+echo '---------ANSWER---------'
+echo $(( (`date +%s` - `date +%s -d '2019/08/12'`) / 86400 )) days ago

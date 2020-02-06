@@ -1,0 +1,5 @@
+ssh jpartane@10.12.180.160
+
+# First thing to do is from VM settings -> Network -> change "Attached to"
+# into "Bridged Adapter" in order to connecct via ssh on the VM
+# after that I can type this command and the connection is made.

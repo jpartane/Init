@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ifconfig -l
+# with: networksetup -listallhardwareports you can find out what the
+# interfaces stand for

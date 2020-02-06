@@ -1,0 +1,10 @@
+cat /etc/passwd | grep home | cut -d: -f1
+
+# List all real users on the VM
+# Human users have UIDs starting at 1000, so this command
+# filters out all the non-humans
+# first part list all users and their UIDs
+# second part cuts out all under 1000 (will now show
+# in my VM something like 'jpartane:1000'
+# 3rd part cuts out the 1000 so shows only 'jpartane' 
+# and other possible human users.

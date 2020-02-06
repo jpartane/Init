@@ -1,0 +1,4 @@
+46.19.122.85 intra.42.fr
+# I need to add this line to /etc/hosts file
+# and now the address is rerouted.
+# BUT in order to do the rerouting it would require to be a superuser

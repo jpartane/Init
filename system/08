@@ -1,0 +1,5 @@
+~/.ssh/authorized_keys
+
+# the file is called authorized_keys, it is located on .ssh folder.
+# (this folder is different for each user)
+# cat /etc/ssh/sshd_config | grep AuthorizedKeysFile | awk '{print $2 "\n" $3}'

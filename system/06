@@ -1,0 +1,3 @@
+service ssh restart
+
+#command to reboot SSH service

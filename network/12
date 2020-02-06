@@ -1,0 +1,12 @@
+#!/bin/bash
+
+ipconfig getpacket en0 | grep "yiaddr"
+
+# Find the IP that was assigned to you by dhcp server
+# if you only type ipconfig getpacket en0, you get alot of information
+# yiaddr: Your machine's IP address
+# chaddr: Your machine's MAC address
+# domain_name_server: Your domain name server(s)
+# server_identifier (ip): Thats your DHCP servers IP address
+# # A DHCP Server is a network server that automatically provides and assigns
+# IP addresses, default gateaways and other network parameters to client devices

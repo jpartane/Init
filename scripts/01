@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cat /etc/passwd | awk -F':' '{print $1 $3 $7}'
+
+# Write a script which displays only the login, UID and Path of each entry of the /etc/passwd file
+# cat /etc/passwd will shows all essential information
+# awk -F will take out : scan and print out only 1 3 and 7
+# 1 = username 3 = User ID (UID) 7 = the absolute path of a command or shell (/bin/bash)
+# https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/

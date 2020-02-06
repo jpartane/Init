@@ -1,0 +1,8 @@
+top &
+kill (PID number)
+
+# Find the command that kills the background command’s process
+# first run top in background so it gives the PID number, then type either pkill
+# (PID) or kill (PID)
+# pkill only takes a number as parameter, kill can also take a command such as 
+# folder path etc..

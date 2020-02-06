@@ -1,0 +1,10 @@
+ifconfig en0 | grep "broadcast" | awk "{print \$6}"
+
+arp -a | cut -d "(" -f2 | cut -d ")" -f1
+# en0 is the Ethernet on our computer, I grep broadcast which is
+# in en0 and print the address of broadcast
+# arp = address resolution displa and control
+# -a displays or deletes all of the current ARP entries
+# ARP is used to resolve IP addresses to MAC addresses
+# (MAC address is the physical address of the device
+# (IP address is used to locate a device on a network)

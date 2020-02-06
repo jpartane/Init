@@ -1,0 +1,9 @@
+#!/bin/bash
+
+traceroute slash16.org
+
+# identify the network devices between your computer and the slash16.org domain
+# traceroute is a command that measures the speed and route data takes to
+# a destination server. It works by sending several test packets of data
+# to a specified destination address, and records each intermediate router
+# or link passed by the data on its journey

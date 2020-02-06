@@ -1,0 +1,4 @@
+# Find the provider of slash16.org
+Amazon Web Services (AWS)
+# whois slash16.org | grep 'Name Server'
+# ("aws" & "AWS" in the addresses) 

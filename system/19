@@ -1,0 +1,4 @@
+systemctl -t service --state=active
+
+# List all services which are started at boot time and name
+# this kind of services

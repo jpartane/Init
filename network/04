@@ -1,0 +1,7 @@
+#!/bin/bash
+
+netstat -rn | grep default | head -1 | awk '{print $2}'
+
+# 'netstat -r' will show routing tables
+# 'netstat -n' will show network adresses as numbers (normally displays them symbolically)
+# 'head -1' will remove one line from the grep result
